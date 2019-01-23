@@ -54,8 +54,8 @@ public class Person4 {
   }
 
   public static void main(java.lang.String[] args) {
-      Person4 test = new Person4("gauranshu");
-      System.out.println(test.calc("gauranshu"));
+//       Person4 test = new Person4("gauranshu");
+//       System.out.println(test.calc("gauranshu"));
   }
 
 }
