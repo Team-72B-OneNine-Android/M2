@@ -53,9 +53,9 @@ public class Person4 {
     return name + calc(input);
   }
 
-  public static void main(java.lang.String[] args) {
-      Person4 test = new Person4("gauranshu");
-      System.out.println(test.calc("gauranshu"));
+  public static void main(String[] args) {
+      // Person4 test = new Person4("gauranshu");
+      // System.out.println(test.calc("gauranshu"));
   }
 
 }
