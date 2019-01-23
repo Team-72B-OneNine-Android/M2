@@ -6,7 +6,7 @@ import java.util;
  *  returns their name and a
  *  modified string
  *
- * @author Gordon LaiL
+ * @author Gordon Lai
  * @version 1.1
  */
 public class Person2 {
