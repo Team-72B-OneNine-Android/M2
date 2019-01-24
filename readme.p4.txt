@@ -1,2 +1,2 @@
-Gauranshu Sharma
-gauranshu.sharma@gatech.edu
+Name: Gauranshu Sharma
+Email: gauranshu.sharma@gatech.edu
