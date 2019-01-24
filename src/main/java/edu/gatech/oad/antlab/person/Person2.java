@@ -1,5 +1,4 @@
 package edu.gatech.oad.antlab.person;
-import java.util;
 
 /**
  *  A simple class for person 2
@@ -35,6 +34,7 @@ public class Person2 {
 		char[] array = input.toCharArray();
    		for (int i = 0; i < array.length; i++) {
      		System.out.print(array[i] + " ");
+     	}
    		String name = new String(array);
 	    return name;
 	}
