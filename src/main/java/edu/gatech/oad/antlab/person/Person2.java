@@ -11,7 +11,7 @@ package edu.gatech.oad.antlab.person;
 public class Person2 {
     /** Holds the persons real name */
     private String name;
-	 	/**
+	 /**
 	 * The constructor, takes in the persons
 	 * name
 	 * @param pname the person's real name
