@@ -76,7 +76,6 @@ import edu.gatech.oad.antlab.pkg2.*;
                   Person5 p5 = new Person5("Garrison");
                   toPrint += p5.toString("gramey3");
 
-
         System.out.println(toPrint);
 
 

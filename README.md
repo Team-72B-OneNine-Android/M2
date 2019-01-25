@@ -1,2 +1,2 @@
 # M2
-Module 2
+This is module 2
