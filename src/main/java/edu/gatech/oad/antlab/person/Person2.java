@@ -11,7 +11,7 @@ package edu.gatech.oad.antlab.person;
 public class Person2 {
     /** Holds the persons real name */
     private String name;
-	 	/**
+	 /**
 	 * The constructor, takes in the persons
 	 * name
 	 * @param pname the person's real name
@@ -31,12 +31,12 @@ public class Person2 {
 	 */
 	private String calc(String input) {
 	  //Person 2 put your implementation here
+		String name1 = "";
 		char[] array = input.toCharArray();
    		for (int i = 0; i < array.length; i++) {
-     		System.out.print(array[i] + " ");
+     		name1 = name1 + " " + array[i];
      	}
-   		String name = new String(array);
-	    return name;
+	    return name1;
 	}
 
 	/**
