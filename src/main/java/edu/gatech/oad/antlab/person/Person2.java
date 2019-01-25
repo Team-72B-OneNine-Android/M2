@@ -3,9 +3,9 @@ package edu.gatech.oad.antlab.person;
 /**
  *  A simple class for person 2
  *  returns their name and a
- *  modified string 
+ *  modified string
  *
- * @author Bob
+ * @author Gordon Lai
  * @version 1.1
  */
 public class Person2 {
@@ -31,17 +31,24 @@ public class Person2 {
 	 */
 	private String calc(String input) {
 	  //Person 2 put your implementation here
-	  return null;
+		char[] array = input.toCharArray();
+   		for (int i = 0; i < array.length; i++) {
+     		System.out.print(array[i] + " ");
+     	}
+   		String name = new String(array);
+	    return name;
 	}
+
 	/**
 	 * Return a string rep of this object
 	 * that varies with an input string
 	 *
 	 * @param input the varying string
-	 * @return the string representing the 
+	 * @return the string representing the
 	 *         object
 	 */
 	public String toString(String input) {
-	  return name + calc(input);
+
+		return name + calc(input);
 	}
 }
