@@ -32,11 +32,12 @@ public class Person2 {
 	 */
 	private String calc(String input) {
 	  //Person 2 put your implementation here
+		String name1 = "";
 		char[] array = input.toCharArray();
    		for (int i = 0; i < array.length; i++) {
-     		System.out.print(array[i] + " ");
-   		String name = new String(array);
-	    return name;
+     		name1 = name1 + " " + array[i];
+     	}
+	    return name1;
 	}
 
 	/**
